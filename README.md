@@ -31,7 +31,7 @@ Try out the following in the Chrome DevTools console:
 
 ```js
 const input = document.getElementById('input');
-input.addEventListener('click', function() {
+input.addEventListener('click', function(e) {
   alert('I was clicked!');
 });
 ```
